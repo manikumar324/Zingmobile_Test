@@ -17,7 +17,7 @@ class PasswordChecker:
     
 app=PasswordChecker()
 if(app.is_safe_or_not()):
-    print("Password is safe")
+    print("YES,Password is safe")
 else:
-    print("Password is not safe")
+    print("NO,Password is not safe")
         
